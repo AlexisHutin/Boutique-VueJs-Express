@@ -1,0 +1,314 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Dev",
+            "sub_categories": [
+                {
+                    "id": 1,
+                    "name": "PHP",
+                    "products": [
+                        {
+                            "id": 1,
+                            "name": "FrameWork Laravel",
+                            "description": "Apprendre Laravel avec Michel Lafont",
+                            "author": "Michel LaFont",
+                            "created": "02/03/2020",
+                            "updated": "20/06/2020",
+                            "price": "200",
+                            "type": "vidéo",
+                            "duration": "10h",
+                            "rating": "8.5",
+                            "difficulty": "Avancée",
+                            "buying_number": 153,
+                            "is_promotion": false,
+                            "is_obsolete": false,
+                            "category_id": 1,
+                            "sub_category_id": 1
+                        },
+                        {
+                            "id": 2,
+                            "name": "FrameWork Symfony"
+                        },
+                        {
+                            "id": 3,
+                            "name": "FrameWork Cakephp"
+                        },
+                        {
+                            "id": 4,
+                            "name": "FrameWork Lumen"
+                        },
+                        {
+                            "id": 5,
+                            "name": ""
+                        },
+                        {
+                            "id": 6,
+                            "name": "API REST en PHP"
+                        },
+                        {
+                            "id": 7,
+                            "name": "Les bases de PHP"
+                        },
+                        {
+                            "id": 8,
+                            "name": "Aller plus loins avec php"
+                        },
+                        {
+                            "id": 9,
+                            "name": "Php 8, les nouveautées"
+                        },
+                        {
+                            "id": 10,
+                            "name": "Set up son environement de dev"
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "name": "Javascript",
+                    "products": [
+                        {
+                            "id": 1,
+                            "name": "Débuter avec VueJs"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "Java",
+                    "products": [
+                        {
+                            "id": 1,
+                            "name": "Springboot"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "name": "Ruby",
+                    "products": [
+                        {
+                            "id": 1,
+                            "name": "Ruby on rails"
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "name": "Go",
+                    "products": [
+                        {
+                            "id": 1,
+                            "name": "Les bases de Go"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "name": "Rust",
+                    "products": [
+                        {
+                            "id": 1,
+                            "name": "Découvrire Ruste"
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "name": "R",
+                    "products": [
+                        {
+                            "id": 1,
+                            "name": "Le langage R"
+                        }
+                    ]
+                },
+                {
+                    "id": 7,
+                    "name": "C",
+                    "products": [
+                        {
+                            "id": 1,
+                            "name": "Coder en C"
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "name": "C++",
+                    "products": [
+                        {
+                            "id": 1,
+                            "name": "Les pointeurs En C++"
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "name": "C#",
+                    "products": [
+                        {
+                            "id": 1,
+                            "name": "Faire un jeu vidéo avec C#"
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "name": "Python",
+                    "products": [
+                        {
+                            "id": 1,
+                            "name": "L'IA Et Python"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Design",
+            "sub_categories": [
+                {
+                    "id": 1,
+                    "name": "UX/UI",
+                    "products": [
+                        {
+                            "id": 1,
+                            "name": "Expérience Utilisateur"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Marketing",
+            "sub_categories": [
+                {
+                    "id": 1,
+                    "name": "Seo",
+                    "products": [
+                        {
+                            "id": 1,
+                            "name": "Référencer son site internet"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Bureautique",
+            "sub_categories": [
+                {
+                    "id": 1,
+                    "name": "Suite Office",
+                    "products": [
+                        {
+                            "id": 1,
+                            "name": "Les bases d'exel"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Soft skills",
+            "sub_categories": [
+                {
+                    "id": 1,
+                    "name": "Gestion de crises",
+                    "products": [
+                        {
+                            "id": 1,
+                            "name": "Géré une crise en entreprise"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Pédagogie",
+            "sub_categories": [
+                {
+                    "id": 1,
+                    "name": "Structurer un cours",
+                    "products": [
+                        {
+                            "id": 1,
+                            "name": "Structuration d'un cours en ligne"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Système & réseau",
+            "sub_categories": [
+                {
+                    "id": 1,
+                    "name": "Serveur",
+                    "products": [
+                        {
+                            "id": 1,
+                            "name": "Sécuriser l'accès à son serveur"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Business",
+            "sub_categories": [
+                {
+                    "id": 1,
+                    "name": "Monter son entreprise",
+                    "products": [
+                        {
+                            "id": 1,
+                            "name": "Trouver ses premiers clients"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Gestion de projets",
+            "sub_categories": [
+                {
+                    "id": 1,
+                    "name": "Méthodes Agiles",
+                    "products": [
+                        {
+                            "id": 1,
+                            "name": "Le role du scrum master"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Autres",
+            "sub_categories": [
+                {
+                    "id": 1,
+                    "name": "Navigation Internet",
+                    "products": [
+                        {
+                            "id": 1,
+                            "name": "Naviguer de façon sécuriser"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

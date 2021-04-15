@@ -1,16 +1,26 @@
 <template>
   <div class="productView">
     <div class="container-fluid">
-      <Badges :course="product" />
+      
+      <div class="header">
+        <div class="title d-flex flex-row align-items-end">
+          <h1 class="display-3 m-0">{{ product.name }}</h1>
+          <Badges :course="product" class="p-2"/>
+        </div>
+        <hr />
+      </div>
+
       <div class="row">
         <div class="col-8">
           <!-- COURSE -->
           <ProductDetails :course="product" />
-          <router-link to="/buy" class="btn btn-success" type="submit"><i class="bi-cart-plus" style="font-size:2em"></i></router-link>
+          <router-link to="/buy" class="btn btn-success" type="submit"
+            ><i class="bi-cart-plus" style="font-size: 2em"></i
+          ></router-link>
         </div>
         <div class="col-4">
           <!-- AUTHOR -->
-          <AuthorDetails />
+          <AuthorDetails :course="product" />
         </div>
       </div>
     </div>

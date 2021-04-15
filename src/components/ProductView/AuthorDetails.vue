@@ -2,11 +2,15 @@
   <div class="authorDetails">
     <div class="row py-3">
       <!-- Image -->
-      <img src="@/assets/undraw_male_avatar_323b.svg" height="350"/>
+      <img src="@/assets/undraw_male_avatar_323b.svg" height="350" />
+    </div>
+    <div class="row py-3">
+      <!-- Name -->
+      <h3>{{ course.author }}</h3>
     </div>
     <div class="row py-3">
       <!-- About the Author -->
-      <p style="text-align:justify;">
+      <p style="text-align: justify">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in turpis ut
         libero tincidunt sollicitudin. Sed accumsan tristique quam vel eleifend.
         Praesent scelerisque interdum molestie. Ut nec massa dignissim,
@@ -27,6 +31,9 @@
 // import HelloWorld from '@/components/HelloWorld.vue'
 export default {
   name: "AuthorDetails",
+  props: {
+    course: Object,
+  },
   components: {},
 };
 </script>

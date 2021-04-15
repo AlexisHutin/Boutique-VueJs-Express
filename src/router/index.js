@@ -11,7 +11,7 @@ const routes = [
     component: Home
   },
   {
-    path: '/sub-categories',
+    path: '/sub-categories/:category_id',
     name: 'Sub Categories',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
@@ -19,7 +19,7 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/SubCategories.vue')
   },
   {
-    path: '/products',
+    path: '/products/:category_id/:subCategory_id',
     name: 'Products',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
@@ -27,7 +27,7 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/Products.vue')
   },
   {
-    path: '/product-view',
+    path: '/product-view/:category_id/:subCategory_id/:product_id',
     name: 'Product View',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route

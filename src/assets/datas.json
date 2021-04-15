@@ -40,7 +40,7 @@
                         },
                         {
                             "id": 5,
-                            "name": ""
+                            "name": "PHP : Les bonnes pratiques"
                         },
                         {
                             "id": 6,
@@ -65,7 +65,7 @@
                     ]
                 },
                 {
-                    "id": 1,
+                    "id": 2,
                     "name": "Javascript",
                     "products": [
                         {
@@ -75,7 +75,7 @@
                     ]
                 },
                 {
-                    "id": 2,
+                    "id": 3,
                     "name": "Java",
                     "products": [
                         {
@@ -85,7 +85,7 @@
                     ]
                 },
                 {
-                    "id": 3,
+                    "id": 4,
                     "name": "Ruby",
                     "products": [
                         {
@@ -95,7 +95,7 @@
                     ]
                 },
                 {
-                    "id": 4,
+                    "id": 5,
                     "name": "Go",
                     "products": [
                         {
@@ -105,7 +105,7 @@
                     ]
                 },
                 {
-                    "id": 5,
+                    "id": 6,
                     "name": "Rust",
                     "products": [
                         {
@@ -115,7 +115,7 @@
                     ]
                 },
                 {
-                    "id": 6,
+                    "id": 7,
                     "name": "R",
                     "products": [
                         {
@@ -125,7 +125,7 @@
                     ]
                 },
                 {
-                    "id": 7,
+                    "id": 8,
                     "name": "C",
                     "products": [
                         {
@@ -135,7 +135,7 @@
                     ]
                 },
                 {
-                    "id": 8,
+                    "id": 9,
                     "name": "C++",
                     "products": [
                         {
@@ -145,7 +145,7 @@
                     ]
                 },
                 {
-                    "id": 9,
+                    "id": 10,
                     "name": "C#",
                     "products": [
                         {
@@ -155,7 +155,7 @@
                     ]
                 },
                 {
-                    "id": 10,
+                    "id": 11,
                     "name": "Python",
                     "products": [
                         {

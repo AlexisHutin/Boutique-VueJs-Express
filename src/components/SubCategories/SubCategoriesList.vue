@@ -13,7 +13,7 @@
 <script>
 // @ is an alias to /src
 // import HelloWorld from '@/components/HelloWorld.vue'
-import json from '../assets/datas.json'
+import json from '@/assets/datas.json'
 
 export default {
   name: "SubCategoriesList",

@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container-fluid">
     <ProductsList />
   </div>
 </template>
@@ -7,7 +7,7 @@
 <script>
 // @ is an alias to /src
 // import HelloWorld from '@/components/HelloWorld.vue'
-import ProductsList from "@/components/ProductsList.vue";
+import ProductsList from "@/components/Products/ProductsList.vue";
 
 export default {
   name: "Products",

@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import json from '../assets/datas.json'
+import json from '@/assets/datas.json'
 
 export default {
   name: "Categories List",

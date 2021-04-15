@@ -11,8 +11,8 @@
 <script>
 // @ is an alias to /src
 // import HelloWorld from '@/components/HelloWorld.vue'
-import json from "../assets/datas.json";
-import ProductCard from "@/components/ProductCard.vue";
+import json from "@/assets/datas.json";
+import ProductCard from "@/components/Products/ProductCard.vue";
 
 export default {
   name: "ProductsList",

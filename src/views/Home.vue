@@ -2,10 +2,10 @@
   <div class="home">
     <div class="container-fluid">
       <div class="row">
-        <div class="col">
-          <img alt="Vue logo" src="@/assets/logo.png" />
+        <div class="col-8 text-center">
+          <img alt="online learning" src="@/assets/undraw_Online_learning_re_qw08.svg" height="700"/>
         </div>
-        <div class="col">
+        <div class="col-4">
           <CategoriesList type="untruc" />
         </div>
       </div>

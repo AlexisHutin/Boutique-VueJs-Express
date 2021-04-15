@@ -1,12 +1,9 @@
 <template>
   <div class="card">
-    <img
-      :src="['https://fakeimg.pl/350x200/?text=' + product.name]"
-      class="card-img-top"
-      :alt="['img-' + product.name]"
-    />
+    <img src="@/assets/undraw_education_f8ru.svg"/>
     <div class="card-body">
       <h5 class="card-title">{{ product.name }}</h5>
+      <p>{{ product.description }}</p>
     </div>
 
     <div class="card-footer text-end">
@@ -24,7 +21,6 @@
 <script>
 // @ is an alias to /src
 // import HelloWorld from '@/components/HelloWorld.vue'
-
 
 export default {
   name: "ProductsCard",

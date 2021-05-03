@@ -16,11 +16,19 @@
 
 <script>
 import json from "@/assets/datas.json";
+import CategoriesService from "@/services/Categories.service";
 
 export default {
   name: "Categories List",
   props: {
     type: String,
+  },
+  async mounted() {
+    CategoriesService.getAll().then((res) => {
+      if (res) {
+        this.categories = res.map(object)
+      }
+    });
   },
   data: function () {
     return {

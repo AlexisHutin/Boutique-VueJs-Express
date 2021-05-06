@@ -12,11 +12,10 @@ class UsersService {
         userdatas,
       })
       .then((response) => {
-        
         console.log(response);
-        if(response.status === 200) {
-            alert("Création du compte valider");
-            window.location = '/';
+        if (response.status === 200) {
+          alert("Création du compte valider");
+          window.location = "/";
         }
         return response;
       });

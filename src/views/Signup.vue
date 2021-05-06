@@ -51,12 +51,7 @@
 
       <div class="form-group">
         <label for="phone">Enter your phone number:</label>
-        <input
-          v-model="phone"
-          type="text"
-          class="form-control"
-          name="phone"
-        />
+        <input v-model="phone" type="text" class="form-control" name="phone" />
       </div>
 
       <button type="submit" class="btn btn-primary">Submit</button>
@@ -78,8 +73,8 @@ export default {
       email: null,
       password: null,
       address: null,
-      phone: null
-    }
+      phone: null,
+    };
   },
 
   methods: {

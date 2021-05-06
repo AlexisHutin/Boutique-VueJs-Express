@@ -1,6 +1,7 @@
 <template>
   <div class="productView">
     <div class="container-fluid">
+      <BackBtn />
       <div class="header">
         <div class="title d-flex flex-row align-items-end">
           <h1 class="display-3 m-0">{{ product.name }}</h1>
@@ -34,6 +35,8 @@ import ProductsService from "@/services/Products.service";
 import ProductDetails from "@/components/ProductView/ProductDetails.vue";
 import AuthorDetails from "@/components/ProductView/AuthorDetails.vue";
 import Badges from "@/components/ProductView/Badges.vue";
+import BackBtn from "@/components/BackBtn.vue";
+
 
 export default {
   name: "ProductView",
@@ -41,6 +44,7 @@ export default {
     ProductDetails,
     AuthorDetails,
     Badges,
+    BackBtn
   },
 
   mounted() {

@@ -1,6 +1,7 @@
 <template>
   <div class="">
     <div class="container-fluid">
+      <BackBtn />
       <div class="row">
         <div class="col-4">
           <SubCategoriesList category_id="" />
@@ -21,11 +22,14 @@
 // @ is an alias to /src
 // import HelloWorld from '@/components/HelloWorld.vue'
 import SubCategoriesList from "@/components/SubCategories/SubCategoriesList.vue";
+import BackBtn from "@/components/BackBtn.vue";
+
 
 export default {
   name: "SubCategories",
   components: {
     SubCategoriesList,
+    BackBtn
   },
 };
 </script>

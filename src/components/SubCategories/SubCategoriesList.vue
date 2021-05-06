@@ -10,9 +10,11 @@
           name: 'Products',
           params: { subCategory_id: subCategory.id },
         }"
-        class="btn btn-primary p-2 my-2"
+        class="btn btn-primary p-3 my-2"
         aria-current="page"
-        >{{ subCategory.name }}</router-link
+        >{{
+          subCategory.name.charAt(0).toUpperCase() + subCategory.name.slice(1)
+        }}</router-link
       >
     </div>
   </div>
@@ -40,6 +42,5 @@ export default {
       subCategories: [],
     };
   },
-  
 };
 </script>

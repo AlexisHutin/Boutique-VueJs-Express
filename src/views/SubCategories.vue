@@ -6,7 +6,11 @@
           <SubCategoriesList category_id="" />
         </div>
         <div class="col-8 text-center">
-          <img alt="online learning" src="@/assets/undraw_studying_s3l7.svg" height="700"/>
+          <img
+            alt="online learning"
+            src="@/assets/undraw_studying_s3l7.svg"
+            height="700"
+          />
         </div>
       </div>
     </div>

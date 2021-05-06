@@ -10,9 +10,11 @@
           name: 'Sub Categories',
           params: { category_id: category.id },
         }"
-        class="btn btn-primary p-2 my-2"
+        class="btn btn-primary p-3 my-2"
         aria-current="page"
-        >{{ category.name }}</router-link
+        >{{
+          category.name.charAt(0).toUpperCase() + category.name.slice(1)
+        }}</router-link
       >
     </div>
   </div>
@@ -32,7 +34,7 @@ export default {
     CategoriesService.getAll().then((res) => {
       if (res) {
         this.categories = res;
-      } 
+      }
     });
   },
   data: function () {

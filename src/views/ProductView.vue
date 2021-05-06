@@ -1,11 +1,10 @@
 <template>
   <div class="productView">
     <div class="container-fluid">
-      
       <div class="header">
         <div class="title d-flex flex-row align-items-end">
           <h1 class="display-3 m-0">{{ product.name }}</h1>
-          <Badges :course="product" class="p-2"/>
+          <Badges :course="product" class="p-2" />
         </div>
         <hr />
       </div>
@@ -47,24 +46,14 @@ export default {
   mounted() {
     ProductsService.getOne(this.$route.params.product_id).then((res) => {
       if (res) {
-        this.product = res;
+        console.log(res[0]);
+        this.product = res[0];
       }
     });
   },
   data: function () {
     return {
-      product: [],
-    };
-  },
-
-  data: function () {
-    return {
-      product: json.categories
-        .find((obj) => obj.id == this.$route.params.category_id)
-        .sub_categories.find(
-          (obj) => obj.id == this.$route.params.subCategory_id
-        )
-        .products.find((obj) => obj.id == this.$route.params.product_id),
+      product: {},
     };
   },
 };

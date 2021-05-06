@@ -1,7 +1,5 @@
 <template>
-  <div class="">
-    
-  </div>
+  <div class=""></div>
 </template>
 
 <script>
@@ -9,9 +7,7 @@
 // import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
-  name: '',
-  components: {
-    
-  }
-}
+  name: "",
+  components: {},
+};
 </script>

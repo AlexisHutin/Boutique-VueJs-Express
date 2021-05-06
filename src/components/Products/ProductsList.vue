@@ -2,7 +2,7 @@
   <div class="productsList">
     <div class="row">
       <div v-for="product in products" :key="product.id" class="col-3 py-2">
-        <ProductCard :product='product'/>
+        <ProductCard :product="product" />
       </div>
     </div>
   </div>
@@ -14,11 +14,10 @@
 import ProductCard from "@/components/Products/ProductCard.vue";
 import ProductsService from "@/services/Products.service";
 
-
 export default {
   name: "ProductsList",
   components: {
-      ProductCard
+    ProductCard,
   },
 
   mounted() {

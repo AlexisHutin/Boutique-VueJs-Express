@@ -1,9 +1,10 @@
 <template>
   <div class="card">
-    <img src="@/assets/undraw_education_f8ru.svg"/>
+    <img class="p-3" src="@/assets/undraw_education_f8ru.svg" />
     <div class="card-body">
       <h5 class="card-title">{{ product.name }}</h5>
-      <p>{{ product.description }}</p>
+      <p v-if="product.description">{{ product.description }}</p>
+      <p v-else>Description indiponible</p>
     </div>
 
     <div class="card-footer text-end">
@@ -25,7 +26,7 @@
 export default {
   name: "ProductsCard",
   props: {
-      product: Object,
+    product: Object,
   },
   components: {},
 };

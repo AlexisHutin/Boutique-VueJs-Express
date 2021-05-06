@@ -50,7 +50,6 @@ export default {
   mounted() {
     ProductsService.getOne(this.$route.params.product_id).then((res) => {
       if (res) {
-        console.log(res[0]);
         this.product = res[0];
       }
     });

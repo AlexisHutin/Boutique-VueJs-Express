@@ -25,7 +25,7 @@
 import CategoriesService from "@/services/Categories.service";
 
 export default {
-  name: "Categories List",
+  name: "CategoriesList",
   props: {
     type: String,
   },

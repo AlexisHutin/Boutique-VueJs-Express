@@ -12,6 +12,7 @@
                 type="text"
                 class="form-control"
                 placeholder="Username"
+                required
               />
             </div>
 
@@ -24,6 +25,7 @@
                 class="form-control"
                 aria-describedby="emailHelp"
                 placeholder="Enter email"
+                required
               />
               <small id="emailHelp" class="form-text text-muted"
                 >We'll never share your email with anyone else.</small
@@ -37,6 +39,7 @@
                 type="password"
                 name="password"
                 class="form-control"
+                required
                 placeholder="Password"
               />
             </div>
@@ -47,6 +50,7 @@
               <input
                 v-model="address"
                 type="text"
+                required
                 class="form-control"
                 name="address"
                 placeholder="1234 Main St"
@@ -57,6 +61,7 @@
               <label for="phone">Enter your phone number:</label>
               <input
                 v-model="phone"
+                required
                 type="text"
                 class="form-control"
                 name="phone"

@@ -11,8 +11,9 @@
 <script>
 // @ is an alias to /src
 // import HelloWorld from '@/components/HelloWorld.vue'
-import json from "@/assets/datas.json";
 import ProductCard from "@/components/Products/ProductCard.vue";
+import ProductsService from "@/services/Products.service";
+
 
 export default {
   name: "ProductsList",
@@ -20,13 +21,16 @@ export default {
       ProductCard
   },
 
+  mounted() {
+    ProductsService.getAll(this.$route.params.subCategory_id).then((res) => {
+      if (res) {
+        this.products = res;
+      }
+    });
+  },
   data: function () {
     return {
-      products: json.categories
-        .find((obj) => obj.id == this.$route.params.category_id)
-        .sub_categories.find(
-          (obj) => obj.id == this.$route.params.subCategory_id
-        ).products,
+      products: [],
     };
   },
 };

@@ -21,18 +21,25 @@
 <script>
 // @ is an alias to /src
 // import HelloWorld from '@/components/HelloWorld.vue'
-import json from "@/assets/datas.json";
+// import json from "@/assets/datas.json";
+import SubCategoriesService from "@/services/SubCategories.service";
 
 export default {
   name: "SubCategoriesList",
   components: {},
 
+  mounted() {
+    SubCategoriesService.getAll(this.$route.params.category_id).then((res) => {
+      if (res) {
+        this.subCategories = res;
+      }
+    });
+  },
   data: function () {
     return {
-      subCategories: json.categories.find(
-        (obj) => obj.id == this.$route.params.category_id
-      ).sub_categories,
+      subCategories: [],
     };
   },
+  
 };
 </script>

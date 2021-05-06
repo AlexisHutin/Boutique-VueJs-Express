@@ -30,7 +30,7 @@
 <script>
 // @ is an alias to /src
 // import HelloWorld from '@/components/HelloWorld.vue'
-import json from "@/assets/datas.json";
+import ProductsService from "@/services/Products.service";
 
 import ProductDetails from "@/components/ProductView/ProductDetails.vue";
 import AuthorDetails from "@/components/ProductView/AuthorDetails.vue";
@@ -42,6 +42,19 @@ export default {
     ProductDetails,
     AuthorDetails,
     Badges,
+  },
+
+  mounted() {
+    ProductsService.getOne(this.$route.params.product_id).then((res) => {
+      if (res) {
+        this.product = res;
+      }
+    });
+  },
+  data: function () {
+    return {
+      product: [],
+    };
   },
 
   data: function () {
